@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(250, 250, 250);
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+    background-color: black;
+}
+
+.container {
+    background-color: teal;
+    padding-bottom: 20px;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid black;
+}
+
+
+.button_two {
+    background-color: #f3fcf3; /* Green */
+    border: none;
+    color: rgb(228, 224, 10);
+    padding: 15px 32px;
+    margin: 20px 0 0 902px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  

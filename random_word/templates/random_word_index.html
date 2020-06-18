@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word of the day!!!!</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <img id="clock" src="{% static "images/Clock_Tower_1.png" %}" alt="My image">
+        <h1>Random Word: {{request.session.word}} </h1>
+        <h2>Count: {{request.session.count}}</h2>
+        <br>
+        <div class="buttons">
+            <a class="button_one" href="/reset">RESET!</a>
+            <a class="button_three" href="/random_word">Count!</a>
+            <a class="button_two" href="/">Back to main page!</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <h2>The current time and date</h2>
+        <h1>{{time}}</h1>
+        <img id="clock" src="{% static "images/Clock_Tower_1.png" %}" alt="My image">
+        <div class="button_container">
+            <a class="button_main" href="/reset">Want a random word? Click here!</a>
+        </div>
+    </div>
+</body>
+
+</html>
